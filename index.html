@@ -1,207 +1,311 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/animations.css">
-        <link rel="stylesheet" href="css/boxicons.css">
-        <link rel="stylesheet" href="css/boxicons.min.css">
-        <link rel="stylesheet" href="css/transformations.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/boxicons.css" />
+    <link rel="stylesheet" href="css/boxicons.min.css" />
+    <link rel="stylesheet" href="css/transformations.css" />
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <style></style>
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Portfolio website complete</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav__logo">Prince</a>
+        </div>
 
-        <title>Portfolio website complete</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Prince</a>
-                </div>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#education" class="nav__link">Education</a>
+            </li>
+            <li class="nav__item">
+                <a href="#project" class="nav__link">Projects</a>
+              </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi,<br />I'm <span class="home__title-color">Prince</span><br />
+            Software Developer
+          </h1>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Prince</span><br> Software Developer</h1>
+          <a href="#contact" class="button">Contact</a>
+        </div>
 
-                    <a href="#contact" class="button">Contact</a>
-                </div>
+        <div class="home__social">
+          <a
+            href="https://www.facebook.com/profile.php?id=100006483655022"
+            target="”_blank”"
+            class="home__social-icon"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/prince0._.0/"
+            target="”_blank”"
+            class="home__social-icon"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/prince5426/"
+            target="_blank"
+            class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="https://twitter.com/kashyap5829"
+            target="”_blank”"
+            class="home__social-icon"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a
+            href="https://github.com/Kashyap5426"
+            target="_blank"
+            class="home__social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://in.pinterest.com/pk1265485/"
+            target="”_blank”"
+            class="home__social-icon"
+            ><i class="bx bxl-pinterest"></i
+          ></a>
+          <a
+            href="https://www.behance.net/princekashyap18"
+            target="_blank"
+            class="home__social-icon"
+            ><i class="bx bxl-behance"></i
+          ></a>
+        </div>
 
-                <div class="home__social">
-                    <a href="https://www.facebook.com/profile.php?id=100006483655022" target=”_blank” class="home__social-icon"><i class='bx bxl-facebook' ></i></a>
-                    <a href="https://www.instagram.com/prince0._.0/" target=”_blank” class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
-                    <a href="https://www.linkedin.com/in/prince5426/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://twitter.com/kashyap5829" target=”_blank” class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
-                    <a href="https://github.com/Kashyap5426" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                    <a href="https://in.pinterest.com/pk1265485/" target=”_blank” class="home__social-icon"><i class='bx bxl-pinterest' ></i></a>
-                    <a href="https://www.behance.net/princekashyap18" target="_blank" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
-                </div>
+        <div class="home__img">
+          <svg
+            class="home__blob"
+            viewBox="0 0 479 467"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <mask id="mask0" mask-type="alpha">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              />
+            </mask>
+            <g mask="url(#mask0)">
+              <path
+                d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"
+              />
+              <image
+                class="home__blob-img"
+                x="50"
+                y="60"
+                href="images/prince1.png"
+              />
+            </g>
+          </svg>
+        </div>
+      </section>
 
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="50" y="60" href="images/prince1.png"/>
-                        </g>
-                    </svg>
-                </div>
-            </section>
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
 
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="images/about-us.jpeg" alt="" />
+          </div>
 
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="images/about-us.jpeg" alt="">
+          <div>
+            <h2 class="about__subtitle">I'm Prince</h2>
+            <p class="about__text">
+              A final-year computer science and engineering student. I have
+              strong skills in several areas of technology, including C++,
+              Python, Website development, and Blockchain Technology. I am
+              passionate about using my knowledge and expertise to create
+              innovative solutions that make a positive impact on the world. In
+              my free time, I enjoy playing Cricket, and I am always eager to
+              learn new things and take on new challenges. Thank you for taking
+              the time to learn a bit about me, and I look forward to connecting
+              with you!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Profesional Skills</h2>
+            <p class="skills__text">
+              Proficient in C++, web development, software development and
+              blockchain technology. Experience with complex projects and
+              problem-solving.
+            </p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAp9JREFUSEvFlo9t00AUxr93bpAQrggTUCYgCyS4G7QTkE7Q6wRJJuDCArUngA1wnAFYIUxAIoyQCL6HzrEj52zHdorISVEs+fx+796f7x3hTIvOxMVJYE9+72vde2+cFmIbhOrVuusBOoOHMh4T4wOAfgZbgyGjj27QBd4a7MkfXsI0IcCrAjAQOsSzUF2GbRxoBHvy1xVzMmFg3NKgT+TMQvV8dWx/LXiXx2f3IJaFsLZhmz1rMCkhfs/r8l8JHsqfN8Rs8nhVSSIsAM4KivpgvKvxaMVED0v14rP9vgQeyViBcV8N5JnAhW+H0aRD488YTJOq7wjwF3P3rviuDL6PufQxYyME3zQVjifjgdYIQXhp24jm7gGrFVgQXzdBc1AKZ3x9Opgwj5RrCixdedExcdpWxBQWiygDf7Lro/OJBTlv8pymUO59ATAonmjXw9tbzT2T472TxT3dwIRFpNy9YAxlLDPVqm8rxoYEVsx4i8Lzk8AjGYdHWid1hgl3DpxQI/EZ8PPn4gHSFNmuj4pVbZ24PZhXRl5BCAw44eRxOXev27dTOdRmQDw2yJcRFvMz4mP+jXQOuoXajL1CcRngSMY+GOlI3C9CILCVGj0jPofvsk2dwbDaydhJJRWmnXgtgLDY4+kUA/nEeH16VWdfnkdAdvC1IL5tUq868TAGmkNdlcM8ZkxTIURQHhLZVYgwrRyhhCBS7sE8rx2LACs7T3s+EIpsLGpQv/ZWQvgGkGw1Fg80GRcSmmTVtDnaUowNBKtIXZoIVK5WVx+NZFrXJiWraWs505OvPrZB0yYaZByovm0QFgI8bSrA3G7jiW0H0uuthtqHn7FhAblUrt+gaJbmdNmd7TXjMUEvrVIHW/+/XOhP8PO04vpXINvOX+zKXi5xl+XJAAAAAElFTkSuQmCC"
+                />
+                <span class="skills__name">&nbsp; &nbsp;C++</span>
+              </div>
+              <div class="skills__bar skills__cpp"></div>
+              <div>
+                <span class="skills__percentage">90%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAhBJREFUSEvllf9N20AUx7/PlpAqjFomIEzQMEAcdwN3AjJBOSYobHBhgXYDsgGHM0Bhg3QCgnDVqpL9kC84uYQ7/wBLROL+inLP73Pv1/cR3ujQG3GxXeBIpP0s449dZMP36V7J4GbTlzXiUKQKjGEXYBCuExlE2w5+OAPT924i5vNE7p01jHg7wLNkHBy2iT78ls5B0M3JhNOpDGSjiCPxEOVMV6VxMg5ajV14knL5rUf8Rck99SrwQKQjMI7roidg2cUtwWk/Z/xavRpHxSwWYGL8qAOb9x4tvm0UcWFkS9dmCZo8wFUmZ+2a1MkGbtofTvBApDNiHFR1pg0citUoMuH3VAY9m507YkM2GVDE9KwzTYfJxe65LpEBdsllYdcITIRbBk80yKFoZS1DkUowTrStQ6frwD+Xo2M4MEuwjNi4X1swhHEiA9Ey1YZsrjuWyDEqlQmMe3gsSz1eB9t1uiZiO7h8fbGzi9+bM7qWEXoBeCD+xMR8WYKYKfa9/9dK7s/tY3T3Kct3hkRPvaDbgb5O5e6iNzaOs7kqxOIGTBPmXPk+KM+9IYhjADoD5nHJZWWqX6JSnYD1TBpbxpauuv+qtlrluovE316GLCJwjJyiZSe7iIsOVwya+PCVkh9mLtNWe1anHxQXa48Zn3WttLhAeeCJbe92AjadFNkA/s1dXV5XhlYR1zlrc//+wI8smyUuaCB4qQAAAABJRU5ErkJggg=="
+                />
+                <span class="skills__name">&nbsp; &nbsp;HTML & CSS3</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+              <div>
+                <span class="skills__percentage">80%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAipJREFUSEvllvFt00AUxr/vLEsguSJMQJig7QAJZoNsQCYAM0GcCTBM0E5AO0HcMABhArIBjmrEH4390B00SuOzfUksVYj7z7Lvfve+9973TDzS4iNx8W+Bw+g2LAqIVsvzuEqTYLGvcs4RD6KfI4pMAJzZIIRckZy6XsIJrCMshTMQlwD6ELyqiTBT9M7T5OmyTQEn8DC6jSGczD8G3Fyi5mQh3n9JgqRTsAApgV6d3AZGmc6Tk7gT8CDKxwTGlcNskh8LNsVU4rTx5pRqZJSpgEuWfKH3KqUubTmv5DiMfvRK8WeNcjbdhjIFGG4VoLXgKuBhlF9A8KYtR7Xvq2DobpgnwYNUVcFv8wzEs0PBivK6AC8oMFLfL90R288PHsIoPysFXw+FkvhGeKNSiu+7ZyjifNtcdsB/jcJGFqygsAAktb/m0vfuZuu1f2WrD61Empxs9rqBKdcK63Ep/kRqLNO0MBDWqdUCtkstwClh7NLq0y6paZRaHzDcKS6dtxKMKfLZBWD9RrCafwq0421WezsRNyavQj2ZDlsWN7MaSAF/sWmHY8HEjcLdKE2eZ40R65favQr4Y0J6xv4gfVvEumCaJWBWN5/3GotOOh87JLYh9/O4wSavAWbGarsED6I8ouBDW48O3+XSKdhMrNJfNnj4QoBMG4ii97KzX58/BferX6KIBQh3BwCMnUqqwLjTnz2bxFoF4EnPJTrbfqeqdqrmPT/6/8C/Ad8cAS4yOFfGAAAAAElFTkSuQmCC"
+                />
+                <span class="skills__name">&nbsp; &nbsp;Python</span>
+              </div>
+              <div class="skills__bar skills__python"></div>
+              <div>
+                <span class="skills__percentage">75%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <img
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAA+tJREFUSEvFVk1vG1UUPee9mA/hCnfHru4vqLNFaurukBDCsEBiA+6KJQN/AGeLVDEBsWCB6q4qsSCWKtYdJz+gzr4IZ18pqWoJiWTeQff5I5Px2KmSSp1N4vdm7rnn3nM/iDf08A3hYi1wOzlq5PnGLe/5Ikvro6KT7eTfZp6f3rAz708P8vDWHQIt+y1g5N1/wyy9fryKWCXw7WTSJdAFMAI0+5jt+H9wT+HC5vRu/rApIPMKz0H/QQ48J9QG0HJQL0uvZWUHloC3kknqoEEONiF8vTAtZs6FIcDjAHUkRoaEMsmNRO2S+H7+jTkCcodQBwFP936u7xTBzwEbU7t0QCLh1lKYqG2AbQh3qkIo4p6dU3iwcBjoB2JIqLmXXusVzs9MbCUvBwIHxQ/ntyIOnfSjwF/XCZJAX9QhxB8K337ngO4wrUcNROeKRraSSR9QA+KnZePGhgEpiPcvqgSRnxFKFpEhLMytvbRuea8CftlbFUonfRnIRxeBzu7HIrYXkaO2CXYqGVt5BOSJeVaVQ0ds5kDLB/dM/pSQ+6WsAxIHQfgKQdetxIJqR7G8LFpAdw3jicl+BOHbMjNH3Q3iA1AHAu2947IWZiFuU7pB+fuBYT/aET+G0xd7aT2KtyLHUVwZhZ8qFV0QzMyRJ8X3HMInAe6xnc3vTZQEot399L3BanEF/gHqr8sAi4jqtRQsHKvI7xLjeR2X1Wu5EzQolghd2FJweyUHF6KaA1P8Rk4fFsO8BDwV2Glq3anYtSyfoHYWwMILOXYp7VaVHYCex0kroJYCaDr4bpa+Oy6+W9UyM4Fp2WgxfyAeTkVz1lILRseOupfDNXwI7wTHj8pslxjbwe1kkgAcM6h/rlkQD23qmPCiesv3BWTLtcdJP6A2ENBHrn+83zgssl5ifBZuK6uztmcsrZ0iD0dxDKLWqWqt01rRtsQ/SX0u8NhDowD2Vtbx3GlrnWT4Xbl7bKxjYwBSGx72l0A7sgc61c0m1vwTEENj7Bj+toazslfPgW0BsDBNgdQjdZ+in49KEnQ46dg7ZWBzkvCduCTQNUi1Qd102EjWhvoMfNKKoOKRiJvTJYC7ksYkW3C6C7CxxJgYAloMfgcOyttLpbjK5WE5N0/jqoO8Q6ghuFGcPlNln5/NMxHup3UrpZXPpZe9rcT6uo6XRmhcFoDi0K9Cvypwdk75cR7EWdypqt21DWRdeIp3xliAbSvnBoo1GpCTqgXvtQBbo/EKz+bTyKYQYqmpcVGYX0lcqyJgJSfUspDzN+/1dgg4gsOmA/pVKi7buXSOzVBc+FHrGksHZBeF97WE+lW1sOq9KzG+Cvj/+QkOPcxreF8AAAAASUVORK5CYII="
+                />
+                <span class="skills__name">&nbsp; &nbsp;SQL</span>
+              </div>
+              <div class="skills__bar skills__sql"></div>
+              <div>
+                <span class="skills__percentage">80%</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <img src="images/professional.jpg" alt="" class="skills__img" />
+          </div>
+        </div>
+      </section>
+      <section class="qualification section" id="education">
+        <h2 class="section-title">My Qualification Journey</h2>
+        <div class="container bd-grid">
+          <div class="row">
+            <div class="col">
+              <div class="main-timeline">
+                <div class="timeline">
+                  <a href="#" class="timeline-content">
+                    <span class="timeline-year">2016</span>
+                    <div class="timeline-icon">
+                      <i class="fa fa-rocket" aria-hidden="true"></i>
                     </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'm Prince</h2>
-                        <p class="about__text"> A final-year computer science and engineering student. I have strong skills in several areas of technology, including C++, Python, Website development, and Blockchain Technology. I am passionate about using my knowledge and expertise to create innovative solutions that make a positive impact on the world. In my free time, I enjoy playing Cricket, and I am always eager to learn new things and take on new challenges. Thank you for taking the time to learn a bit about me, and I look forward to connecting with you!</p>           
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">Proficient in C++, web development, software development and blockchain technology. Experience with complex projects and problem-solving.</p>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAp9JREFUSEvFlo9t00AUxr93bpAQrggTUCYgCyS4G7QTkE7Q6wRJJuDCArUngA1wnAFYIUxAIoyQCL6HzrEj52zHdorISVEs+fx+796f7x3hTIvOxMVJYE9+72vde2+cFmIbhOrVuusBOoOHMh4T4wOAfgZbgyGjj27QBd4a7MkfXsI0IcCrAjAQOsSzUF2GbRxoBHvy1xVzMmFg3NKgT+TMQvV8dWx/LXiXx2f3IJaFsLZhmz1rMCkhfs/r8l8JHsqfN8Rs8nhVSSIsAM4KivpgvKvxaMVED0v14rP9vgQeyViBcV8N5JnAhW+H0aRD488YTJOq7wjwF3P3rviuDL6PufQxYyME3zQVjifjgdYIQXhp24jm7gGrFVgQXzdBc1AKZ3x9Opgwj5RrCixdedExcdpWxBQWiygDf7Lro/OJBTlv8pymUO59ATAonmjXw9tbzT2T472TxT3dwIRFpNy9YAxlLDPVqm8rxoYEVsx4i8Lzk8AjGYdHWid1hgl3DpxQI/EZ8PPn4gHSFNmuj4pVbZ24PZhXRl5BCAw44eRxOXev27dTOdRmQDw2yJcRFvMz4mP+jXQOuoXajL1CcRngSMY+GOlI3C9CILCVGj0jPofvsk2dwbDaydhJJRWmnXgtgLDY4+kUA/nEeH16VWdfnkdAdvC1IL5tUq868TAGmkNdlcM8ZkxTIURQHhLZVYgwrRyhhCBS7sE8rx2LACs7T3s+EIpsLGpQv/ZWQvgGkGw1Fg80GRcSmmTVtDnaUowNBKtIXZoIVK5WVx+NZFrXJiWraWs505OvPrZB0yYaZByovm0QFgI8bSrA3G7jiW0H0uuthtqHn7FhAblUrt+gaJbmdNmd7TXjMUEvrVIHW/+/XOhP8PO04vpXINvOX+zKXi5xl+XJAAAAAElFTkSuQmCC"/>
-                                <span class="skills__name">&nbsp; &nbsp;C++</span>
-                            </div>
-                            <div class="skills__bar skills__cpp">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">90%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAhBJREFUSEvllf9N20AUx7/PlpAqjFomIEzQMEAcdwN3AjJBOSYobHBhgXYDsgGHM0Bhg3QCgnDVqpL9kC84uYQ7/wBLROL+inLP73Pv1/cR3ujQG3GxXeBIpP0s449dZMP36V7J4GbTlzXiUKQKjGEXYBCuExlE2w5+OAPT924i5vNE7p01jHg7wLNkHBy2iT78ls5B0M3JhNOpDGSjiCPxEOVMV6VxMg5ajV14knL5rUf8Rck99SrwQKQjMI7roidg2cUtwWk/Z/xavRpHxSwWYGL8qAOb9x4tvm0UcWFkS9dmCZo8wFUmZ+2a1MkGbtofTvBApDNiHFR1pg0citUoMuH3VAY9m507YkM2GVDE9KwzTYfJxe65LpEBdsllYdcITIRbBk80yKFoZS1DkUowTrStQ6frwD+Xo2M4MEuwjNi4X1swhHEiA9Ey1YZsrjuWyDEqlQmMe3gsSz1eB9t1uiZiO7h8fbGzi9+bM7qWEXoBeCD+xMR8WYKYKfa9/9dK7s/tY3T3Kct3hkRPvaDbgb5O5e6iNzaOs7kqxOIGTBPmXPk+KM+9IYhjADoD5nHJZWWqX6JSnYD1TBpbxpauuv+qtlrluovE316GLCJwjJyiZSe7iIsOVwya+PCVkh9mLtNWe1anHxQXa48Zn3WttLhAeeCJbe92AjadFNkA/s1dXV5XhlYR1zlrc//+wI8smyUuaCB4qQAAAABJRU5ErkJggg=="/>
-                                <span class="skills__name">&nbsp; &nbsp;HTML & CSS3</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">80%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAipJREFUSEvllvFt00AUxr/vLEsguSJMQJig7QAJZoNsQCYAM0GcCTBM0E5AO0HcMABhArIBjmrEH4390B00SuOzfUksVYj7z7Lvfve+9973TDzS4iNx8W+Bw+g2LAqIVsvzuEqTYLGvcs4RD6KfI4pMAJzZIIRckZy6XsIJrCMshTMQlwD6ELyqiTBT9M7T5OmyTQEn8DC6jSGczD8G3Fyi5mQh3n9JgqRTsAApgV6d3AZGmc6Tk7gT8CDKxwTGlcNskh8LNsVU4rTx5pRqZJSpgEuWfKH3KqUubTmv5DiMfvRK8WeNcjbdhjIFGG4VoLXgKuBhlF9A8KYtR7Xvq2DobpgnwYNUVcFv8wzEs0PBivK6AC8oMFLfL90R288PHsIoPysFXw+FkvhGeKNSiu+7ZyjifNtcdsB/jcJGFqygsAAktb/m0vfuZuu1f2WrD61Empxs9rqBKdcK63Ep/kRqLNO0MBDWqdUCtkstwClh7NLq0y6paZRaHzDcKS6dtxKMKfLZBWD9RrCafwq0421WezsRNyavQj2ZDlsWN7MaSAF/sWmHY8HEjcLdKE2eZ40R65favQr4Y0J6xv4gfVvEumCaJWBWN5/3GotOOh87JLYh9/O4wSavAWbGarsED6I8ouBDW48O3+XSKdhMrNJfNnj4QoBMG4ii97KzX58/BferX6KIBQh3BwCMnUqqwLjTnz2bxFoF4EnPJTrbfqeqdqrmPT/6/8C/Ad8cAS4yOFfGAAAAAElFTkSuQmCC"/>
-                                <span class="skills__name">&nbsp; &nbsp;Python</span>
-                            </div>
-                            <div class="skills__bar skills__python">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">75%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAA+tJREFUSEvFVk1vG1UUPee9mA/hCnfHru4vqLNFaurukBDCsEBiA+6KJQN/AGeLVDEBsWCB6q4qsSCWKtYdJz+gzr4IZ18pqWoJiWTeQff5I5Px2KmSSp1N4vdm7rnn3nM/iDf08A3hYi1wOzlq5PnGLe/5Ikvro6KT7eTfZp6f3rAz708P8vDWHQIt+y1g5N1/wyy9fryKWCXw7WTSJdAFMAI0+5jt+H9wT+HC5vRu/rApIPMKz0H/QQ48J9QG0HJQL0uvZWUHloC3kknqoEEONiF8vTAtZs6FIcDjAHUkRoaEMsmNRO2S+H7+jTkCcodQBwFP936u7xTBzwEbU7t0QCLh1lKYqG2AbQh3qkIo4p6dU3iwcBjoB2JIqLmXXusVzs9MbCUvBwIHxQ/ntyIOnfSjwF/XCZJAX9QhxB8K337ngO4wrUcNROeKRraSSR9QA+KnZePGhgEpiPcvqgSRnxFKFpEhLMytvbRuea8CftlbFUonfRnIRxeBzu7HIrYXkaO2CXYqGVt5BOSJeVaVQ0ds5kDLB/dM/pSQ+6WsAxIHQfgKQdetxIJqR7G8LFpAdw3jicl+BOHbMjNH3Q3iA1AHAu2947IWZiFuU7pB+fuBYT/aET+G0xd7aT2KtyLHUVwZhZ8qFV0QzMyRJ8X3HMInAe6xnc3vTZQEot399L3BanEF/gHqr8sAi4jqtRQsHKvI7xLjeR2X1Wu5EzQolghd2FJweyUHF6KaA1P8Rk4fFsO8BDwV2Glq3anYtSyfoHYWwMILOXYp7VaVHYCex0kroJYCaDr4bpa+Oy6+W9UyM4Fp2WgxfyAeTkVz1lILRseOupfDNXwI7wTHj8pslxjbwe1kkgAcM6h/rlkQD23qmPCiesv3BWTLtcdJP6A2ENBHrn+83zgssl5ifBZuK6uztmcsrZ0iD0dxDKLWqWqt01rRtsQ/SX0u8NhDowD2Vtbx3GlrnWT4Xbl7bKxjYwBSGx72l0A7sgc61c0m1vwTEENj7Bj+toazslfPgW0BsDBNgdQjdZ+in49KEnQ46dg7ZWBzkvCduCTQNUi1Qd102EjWhvoMfNKKoOKRiJvTJYC7ksYkW3C6C7CxxJgYAloMfgcOyttLpbjK5WE5N0/jqoO8Q6ghuFGcPlNln5/NMxHup3UrpZXPpZe9rcT6uo6XRmhcFoDi0K9Cvypwdk75cR7EWdypqt21DWRdeIp3xliAbSvnBoo1GpCTqgXvtQBbo/EKz+bTyKYQYqmpcVGYX0lcqyJgJSfUspDzN+/1dgg4gsOmA/pVKi7buXSOzVBc+FHrGksHZBeF97WE+lW1sOq9KzG+Cvj/+QkOPcxreF8AAAAASUVORK5CYII="/>
-                                <span class="skills__name">&nbsp; &nbsp;SQL</span>
-                            </div>
-                            <div class="skills__bar skills__sql">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">80%</span>
-                            </div>
-                        </div>
+                    <div class="content">
+                      <h3 class="title school">Sarvodaya Bal Vidyalaya</h3>
+                      <p class="description">
+                        I completed my 10th grade in 2016 from Sarvodaya Bal
+                        Vidyalaya which is located at Dwarka Sector-1 near Durga
+                        Park New Delhi-110045. I had secured 3rd position at
+                        school level by obtaning 8.6 CGPA in my 10th exams. The
+                        School provided me with a strong academic foundation and
+                        many opportunities to participate in extracurricular
+                        activities..
+                      </p>
                     </div>
-                    
-                    <div>              
-                        <img src="images/professional.jpg" alt="" class="skills__img">
-                    </div>
+                  </a>
                 </div>
-            </section>
-            <section class="qualification section" id="education">
-                <h2 class="section-title">My Qualification Journey</h2>
-                <div class="container bd-grid">
-                    <div class="row">
-                      <div class="col">
-                        <div class="main-timeline">
-                          <div class="timeline">
-                            <a href="#" class="timeline-content">
-                              <span class="timeline-year">2016</span>
-                              <div class="timeline-icon">
-                                <i class="fa fa-rocket" aria-hidden="true"></i>
-                              </div>
-                              <div class="content">
-                                <h3 class="title school"> Sarvodaya Bal Vidyalaya</h3>
-                                <p class="description">
-                                    I completed my 10th grade in 2016 from Sarvodaya Bal Vidyalaya which is located at Dwarka Sector-1 near Durga Park New Delhi-110045. I had secured 3rd position at school level by obtaning 8.6 CGPA in my 10th exams. The School provided me with a strong academic foundation and many opportunities to participate in extracurricular activities..
-                                </p>
-                              </div>
-                            </a>
-                          </div>
-                          <div class="timeline">
-                            <a href="#" class="timeline-content">
-                              <span class="timeline-year">2019</span>
-                              <div class="timeline-icon">
-                                <i class="fa fa-users" aria-hidden="true"></i>
-                              </div>
-                              <div class="content">
-                                <h3 class="title diploma"> Pusa Institute of Technology</h3>
-                                <p class="description">
-                                    In 2019, I completed my diploma in Electrical Engineering from Pusa Institute of Technology. The program provided me with a comprehensive education in electrical principles, circuitry, and systems. Through hands-on projects and internships, I gained valuable experience and developed skills that have prepared me for success in my career as an electrical engineer.
-                                </p>
-                              </div>
-                            </a>
-                          </div>
-                          <div class="timeline">
-                            <a href="#" class="timeline-content">
-                              <span class="timeline-year">2023</span>
-                              <div class="timeline-icon">
-                                <i class="fa fa-cog" aria-hidden="true"></i>
-                              </div>
-                              <div class="content">
-                                <h3 class="title thapar">Thapar Institute of Engineering and Technology
-                                </h3>
-                                <p class="description">
-                                    I am currently in my final year of Bachelor of Engineering at Thapar Institute of Engineering and Technology, set to graduate in 2023. Throughout my time here, I have gained a solid understanding of engineering concepts and have had opportunities to apply them through hands-on projects and internships. I look forward to using these skills to make a positive impact in the field.
-                                </p>
-                              </div>
-                            </a>
-                          </div>
-                          <!-- <div class="timeline">
+                <div class="timeline">
+                  <a href="#" class="timeline-content">
+                    <span class="timeline-year">2019</span>
+                    <div class="timeline-icon">
+                      <i class="fa fa-users" aria-hidden="true"></i>
+                    </div>
+                    <div class="content">
+                      <h3 class="title diploma">
+                        Pusa Institute of Technology
+                      </h3>
+                      <p class="description">
+                        In 2019, I completed my diploma in Electrical
+                        Engineering from Pusa Institute of Technology. The
+                        program provided me with a comprehensive education in
+                        electrical principles, circuitry, and systems. Through
+                        hands-on projects and internships, I gained valuable
+                        experience and developed skills that have prepared me
+                        for success in my career as an electrical engineer.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="timeline">
+                  <a href="#" class="timeline-content">
+                    <span class="timeline-year">2023</span>
+                    <div class="timeline-icon">
+                      <i class="fa fa-cog" aria-hidden="true"></i>
+                    </div>
+                    <div class="content">
+                      <h3 class="title thapar">
+                        Thapar Institute of Engineering and Technology
+                      </h3>
+                      <p class="description">
+                        I am currently in my final year of Bachelor of
+                        Engineering at Thapar Institute of Engineering and
+                        Technology, set to graduate in 2023. Throughout my time
+                        here, I have gained a solid understanding of engineering
+                        concepts and have had opportunities to apply them
+                        through hands-on projects and internships. I look
+                        forward to using these skills to make a positive impact
+                        in the field.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <!-- <div class="timeline">
                             <a href="#" class="timeline-content">
                               <span class="timeline-year">2017</span>
                               <div class="timeline-icon">
@@ -257,129 +361,366 @@
                               </div>
                             </a>
                           </div> -->
-                        </div>
-                      </div>
-                    </div>
-                  </div>    
-            </section>
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
-                <div class="gallery bd-grid" id="gallery">
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,care" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,studied" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,substance" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,choose" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,past" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,lamp" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,yet" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,eight" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,crew" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,event" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,instrument" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,practical" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,pass" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,bigger" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,number" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,feature" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,line" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,railroad" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,pride" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,too" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,bottle" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,base" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,cell" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,bag" alt=""></div>
-                    </div>
-                    <div class="gallery-item">
-                        <div class="content"><img src="https://source.unsplash.com/random/?tech,card" alt=""></div>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <form action="mail.php" method="post" role="form" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="message" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="submit" name="submit" value="Send" class="contact__button button">
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Prince</p>
-            <div class="footer__social">
-                <a href="https://www.facebook.com/profile.php?id=100006483655022" target=”_blank” class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="https://www.instagram.com/prince0._.0/" target=”_blank” class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="https://twitter.com/kashyap5829" target=”_blank” class="footer__icon"><i class='bx bxl-twitter' ></i></a>
-                <a href="https://www.linkedin.com/in/prince5426/" target=”_blank” class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
-                <a href="https://github.com/Kashyap5426" target=”_blank” class="footer__icon"><i class='bx bxl-github' ></i></a>
-                <a href="https://in.pinterest.com/pk1265485/" target=”_blank” class="footer__icon"><i class='bx bxl-pinterest' ></i></a>
+              </div>
             </div>
-            <p class="footer__copy">&#169; Prince. All rigths reserved</p>
-        </footer>
+          </div>
+        </div>
+      </section>
+      <section class="project section" id="project">
+        <h2 class="section-title">Projects</h2>
+        <div class="c-multicol">
+          <div class="post">
+            <a
+              href="https://github.com/Kashyap5426/Product_anti_counterfeiting"
+            >
+              <img src="images/1.jpg" alt="image1" />
+              <h1>Product Anti Counterfeitng</h1>
+              <p>
+                Developed on Ethereum, this software uses blockchain technology
+                to prevent counterfeiting of products. The backend is coded in
+                solidity, ensuring secure and reliable transactions, while the
+                frontend is designed with Html, css, js, and bootstrap,
+                providing an easy-to-use interface. By leveraging the power of
+                blockchain technology, this software enables consumers to verify
+                the authenticity of a product, thereby reducing the risk of
+                counterfeit products in the market.
+              </p></a
+            >
+          </div>
+          <div class="post">
+            <a href="https://github.com/Kashyap5426/Advance_Keylogger_in_python">
+            <img src="images/2.jpg" alt="image1" />
+            <h1>Advance Python Keylogger</h1>
+            <p>
+              This Python-based keylogger is an advanced monitoring tool capable
+              of tracking all system activities, including keystrokes, sound
+              recordings, clipboard data, and screenshots. The application sends
+              all captured information to the email ID provided in the software,
+              enabling remote monitoring of the system. With its advanced
+              functionality, this keylogger can be a useful tool for researchers
+              and developers seeking to study system activities and user
+              behavior.
+            </p></a>
+          </div>
+          <div class="post">
+            <a href="https://github.com/Kashyap5426/TIC-TAC-TOE">
+            <img src="images/3.jpeg" alt="image1" />
+            <h1>Tic-Tac-Toe</h1>
+            <p>
+              This college project is a classic game of Tic Tac Toe developed in
+              C++. The game features a user-friendly interface, allowing users
+              to create an account and compete with one another in two-player
+              mode. The game also includes a score tracking system, allowing
+              users to keep track of their wins and losses. With its intuitive
+              design and straightforward gameplay, this Tic Tac Toe game is a
+              great demonstration of C++ programming skills and provides hours
+              of entertainment for players of all ages.
+            </p></a>
+          </div>
+          <div class="post">
+            <a href="https://github.com/Kashyap5426/2D-Obstacle-Paper-Plane-Game">
+            <img src="images/paper-plane.jpg" alt="image1" />
+            <h1>2D Obstacle Paper Plane</h1>
+            <p>
+              This project is a 2D game developed in C++ using the OpenGL API.
+              The game features a paper plane that the player controls through
+              various obstacles, including walls and moving objects. The player
+              can also collect coins, increasing their score. The game has an
+              intuitive user interface, allowing players to easily navigate
+              through the game. With its 2D graphics and challenging gameplay,
+              this paper plane game is a great demonstration of C++ and OpenGL
+              programming skills and provides hours of entertainment for players
+              of all ages
+            </p></a>
+          </div>
+          <div class="post">
+            <a href="https://Kashyap5426.github.io/masonary-grid/">
+            <img src="images/masonry-gallery-layout.webp" alt="image1" />
+            <h1>Masonary Grid Layout</h1>
+            <p>
+              This project is a masonry grid designed using only HTML and CSS.
+              The grid layout is similar to that of a Pinterest-style layout,
+              with various sized boxes arranged in a clean and organized manner.
+              The HTML and CSS code utilized in the project is optimized for
+              responsiveness, ensuring that the grid looks great on various
+              screen sizes and devices. With its sleek design and efficient
+              code, this masonry grid is an impressive demonstration of HTML and
+              CSS skills and can be a useful addition to any web developer's
+              portfolio.
+            </p></a>
+          </div>
+          <div class="post">
+            <a href="https://Kashyap5426.github.io/prince/">
+            <img src="images/preview.png" alt="image1" />
+            <h1>Personal Portfolio</h1>
+            <p>
+              This project is a personal portfolio website designed using HTML,
+              CSS, Bootstrap, and JS. The website features an attractive and
+              user-friendly interface, showcasing your personal brand and work
+              experience. The responsive design of the website ensures that it
+              looks great on various devices, including desktops, laptops,
+              tablets, and smartphones. The use of Bootstrap and JS has enhanced
+              the website's functionality, making it easy to navigate and
+              providing smooth user experience. With its clean design and
+              efficient code, this personal portfolio website is an impressive
+              showcase of your web development skills and can be a great
+              addition to your online presence.
+            </p></a>
+          </div>
+        </div>
+      </section>
+      <!--===== WORK =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">Work</h2>
+        <div class="gallery bd-grid" id="gallery">
+          <div class="gallery-item">
+            <div class="content">
+              <img src="https://source.unsplash.com/random/?tech,care" alt="" />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img
+                src="https://source.unsplash.com/random/?tech,studied"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img
+                src="https://source.unsplash.com/random/?tech,substance"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img
+                src="https://source.unsplash.com/random/?tech,choose"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img src="https://source.unsplash.com/random/?tech,past" alt="" />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img src="https://source.unsplash.com/random/?tech,lamp" alt="" />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img src="https://source.unsplash.com/random/?tech,yet" alt="" />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img
+                src="https://source.unsplash.com/random/?tech,eight"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img src="https://source.unsplash.com/random/?tech,crew" alt="" />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img
+                src="https://source.unsplash.com/random/?tech,event"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img
+                src="https://source.unsplash.com/random/?tech,instrument"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img
+                src="https://source.unsplash.com/random/?tech,practical"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img src="https://source.unsplash.com/random/?tech,pass" alt="" />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img
+                src="https://source.unsplash.com/random/?tech,bigger"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img
+                src="https://source.unsplash.com/random/?tech,number"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img
+                src="https://source.unsplash.com/random/?tech,feature"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img src="https://source.unsplash.com/random/?tech,line" alt="" />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img
+                src="https://source.unsplash.com/random/?tech,railroad"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img
+                src="https://source.unsplash.com/random/?tech,pride"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img src="https://source.unsplash.com/random/?tech,too" alt="" />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img
+                src="https://source.unsplash.com/random/?tech,bottle"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img src="https://source.unsplash.com/random/?tech,base" alt="" />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img src="https://source.unsplash.com/random/?tech,cell" alt="" />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img src="https://source.unsplash.com/random/?tech,bag" alt="" />
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="content">
+              <img src="https://source.unsplash.com/random/?tech,card" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+        <div class="contact__container bd-grid">
+          <form
+            action="mail.php"
+            method="post"
+            role="form"
+            class="contact__form"
+          >
+            <input type="text" placeholder="Name" class="contact__input" />
+            <input type="mail" placeholder="Email" class="contact__input" />
+            <textarea
+              name="message"
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <input
+              type="submit"
+              name="submit"
+              value="Send"
+              class="contact__button button"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
 
-        <!--===== MAIN JS =====-->
-        <script src="js/main.js"></script>
-        <script src="js/gallery.js"></script>
-        <script src="js/timeliner.js"></script>
-    </body>
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Prince</p>
+      <div class="footer__social">
+        <a
+          href="https://www.facebook.com/profile.php?id=100006483655022"
+          target="”_blank”"
+          class="footer__icon"
+          ><i class="bx bxl-facebook"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/prince0._.0/"
+          target="”_blank”"
+          class="footer__icon"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a
+          href="https://twitter.com/kashyap5829"
+          target="”_blank”"
+          class="footer__icon"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/prince5426/"
+          target="”_blank”"
+          class="footer__icon"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a
+          href="https://github.com/Kashyap5426"
+          target="”_blank”"
+          class="footer__icon"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a
+          href="https://in.pinterest.com/pk1265485/"
+          target="”_blank”"
+          class="footer__icon"
+          ><i class="bx bxl-pinterest"></i
+        ></a>
+      </div>
+      <p class="footer__copy">&#169; Prince. All rigths reserved</p>
+    </footer>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/timeliner.js"></script>
+  </body>
 </html>
