@@ -18,6 +18,7 @@
     <title>Portfolio website complete</title>
   </head>
   <body>
+    <div id="preloader"></div>
     <!--===== HEADER =====-->
     <header class="l-header">
       <nav class="nav bd-grid">
@@ -722,5 +723,11 @@
     <script src="js/main.js"></script>
     <script src="js/gallery.js"></script>
     <script src="js/timeliner.js"></script>
+    <script>
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load", function(){
+        loader.style.display="none";
+      })
+    </script>
   </body>
 </html>

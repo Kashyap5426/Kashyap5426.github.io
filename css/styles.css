@@ -1274,4 +1274,12 @@ img {
     break-inside: avoid;
   }
 }
+#preloader{
+  background: #fff url('../images/loader.gif') no-repeat center center;
+  background-size: 20%;
+  height: 100vh;
+  width:100%;
+  position: relative;
+  z-index: 100;
+}
         
