@@ -1274,12 +1274,28 @@ img {
     break-inside: avoid;
   }
 }
-#preloader{
+.preloader {
   background: #fff url('../images/loader.gif') no-repeat center center;
   background-size: 20%;
-  height: 100vh;
-  width:100%;
-  position: relative;
-  z-index: 100;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #fff;
+z-index: 9999;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.hide-preloader {
+opacity: 0;
+visibility: hidden;
+transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+}
+@keyframes spin {
+to {
+transform: rotate(360deg);
+}
 }
         

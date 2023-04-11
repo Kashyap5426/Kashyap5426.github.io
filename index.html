@@ -15,10 +15,15 @@
       href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <style>
+      
+    </style>
     <title>Portfolio website complete</title>
   </head>
   <body>
-    <div id="preloader"></div>
+    <div class="preloader">
+      <div class="spinner"></div>
+    </div>
     <!--===== HEADER =====-->
     <header class="l-header">
       <nav class="nav bd-grid">
@@ -715,7 +720,14 @@
       </div>
       <p class="footer__copy">&#169; Prince. All rigths reserved</p>
     </footer>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      window.addEventListener("load", function () {
+      const preloader = document.querySelector(".preloader");
+      preloader.classList.add("hide-preloader");
+      // console.log("Preloader hidden");
+    } );
+    </script>
     <!--===== SCROLL REVEAL =====-->
     <script src="https://unpkg.com/scrollreveal"></script>
 
@@ -723,11 +735,6 @@
     <script src="js/main.js"></script>
     <script src="js/gallery.js"></script>
     <script src="js/timeliner.js"></script>
-    <script>
-      var loader = document.getElementById("preloader");
-      window.addEventListener("load", function(){
-        loader.style.display="none";
-      })
-    </script>
+    
   </body>
 </html>
